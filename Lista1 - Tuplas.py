@@ -4,7 +4,7 @@ Created on Sat Dec  7 19:06:25 2019
 
 @author: ajnas
 """
-'''
+
 #1
 def decidePresente(valorEmCaixa, valorPresente):
     if (valorPresente > valorEmCaixa*0.8):
@@ -18,8 +18,8 @@ def decidePresente(valorEmCaixa, valorPresente):
 valorEmCaixa = float(input("Insira o valor em caixa: "))
 valorPresente = float(input("Insira o valor do Presente: "))
 print(decidePresente(valorEmCaixa, valorPresente))
-'''
-'''
+
+
 #2
 def ordena(a, b, c):
     if a > b:
@@ -57,8 +57,8 @@ for line in candidatos:
     #print(originalidadeFinal[1])
     notaFinal = float(originalidadeFinal[1])*0.6+float(belezaFinal[1])*0.4
     print("%s, sua nota final é: %.2f"% (inscricao, notaFinal))
-'''
-'''    
+
+
 #3
 def HMS(sec):
     minutos = sec//60
@@ -87,8 +87,8 @@ for line in atletas:
         print("O tempo do atleta %s foi de %.2f horas, %.2f minutos, %.2f segundos." % (inscricao, oTempo[0], oTempo[1], oTempo[2]))
 print("\nO atleta que levou mais tempo foi %s." % maior_id)
 print("O atleta que levou menos tempo foi %s." % menor_id)
-'''
-'''
+
+
 #4
 def ehPerfeito(num):
     divisor=1
@@ -111,8 +111,8 @@ def avaliaNumero(num):
         print("O número não é perfeito.")
 
 avaliaNumero(8)
-'''
-'''
+
+
 #5
 def contaElementos(tupla):
     count = 0
@@ -127,8 +127,8 @@ print(contaElementos( ([1,2],'a',7.3,3, [10,20]) ))
 print(contaElementos( ([1,2,3] ,[ 'a', 'b', 'c']) ))
 print(contaElementos(([1, (2, 3), ('a', (2.0, ([3, 9.0], 'casa', (1,), 'Ana'), [ 'a', 'b']))],
 4.4, 20, 10, ['a', 'b', 'c']) ))
-'''
-'''
+
+
 #6
 def testaContida(tupla):
     lPalavra=[]
@@ -156,8 +156,8 @@ def testaContida(tupla):
 print(testaContida( ("foi",) ))
 print(testaContida( ([1,2,3],(('onde',2.3), 'oi',78), ['a', 'b', 'c']) ))
 print(testaContida( ( ('MAO', 'MOA') , 13.8 , 'c' , 6 , [2,3] ) ))
-'''
-'''
+
+
 #7 
 def testa(tupla, string):
     count=0
@@ -191,8 +191,8 @@ print(testa (("foi",),"oi"))
 print(testa ( ([1,2,3],(('onde',2.3), 'oi',78), ['a', 'b', 'c']),"oi") )
 print(testa (([1,2,3],(('onde', 'noiva',2.3), 'oi',78), ['a', 'b', 'c']) ,"oi"))
 print(testa (( ('MAO', 'MOA') , 13.8 , 'c' , 6 , [2,3] ) ,"oi"))
-'''
-'''
+
+
 #8
 def temperaturas(tTempMedia):
     tMeses = ('Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro')
@@ -219,9 +219,8 @@ tTempMedia = (40, 38, 33, 30, 28, 27, 26, 29, 31, 25, 26)
 tMais = temperaturas(tTempMedia)
 print("O mês mais frio foi: ", tMais[0])
 print("O mês mais quente foi: ", tMais[1])
-'''
 
-'''
+
 #9
 def organiza(tIntegrantes):
     altura = tIntegrantes[0][1] - tIntegrantes[1][1]
@@ -258,8 +257,8 @@ while nDupla!=0:
     
 lProgramacao = (lPrimeiroDia, lSegundoDia)
 print("A programação das apresentações é: ", lProgramacao)
-'''
-'''
+
+
 #10
 def um_sensor(arquivo, sensor):
     arq = open(arquivo, 'r')
@@ -311,8 +310,8 @@ print("Hora %sh:\n\tSensor: %s - Temperatura: %.1fºC" % (resultados4[1][1], res
 print("Hora %sh:\n\tSensor: %s - Temperatura: %.1fºC" % (resultados5[1][1], resultados5[0], resultados5[1][0]))
 print("\tSensor: %s - Temperatura: %.1fºC" % (resultados1[0], resultados1[1][0]))
 print("Hora %sh:\n\tSensor: %s - Temperatura: %.1fºC" % (resultados6[1][1], resultados6[0], resultados6[1][0]))
-'''
-'''
+
+
 #11
 def sorteadosnaCartela(cartela):
     count=0
@@ -380,7 +379,7 @@ def Vencedores(jogoFinalizado):
 lugarDaCartela = (linha, posicao, numero) 
 cartela = [(lugarDaCartela, situacao),(lugarDaCartela, situacao), (lugarDaCartela, situacao)]
 jogoFinalizado = [(jogador, cartela), (jogador, cartela), (jogador, cartela)]
-'''
+
 
 #12
 
